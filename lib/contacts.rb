@@ -20,7 +20,6 @@ def remove_strawberry(contacts)
       if info_hash == :favorite_ice_cream_flavors
         info_hash.delete("strawberry")
       end
-      
     end
   end
 end
