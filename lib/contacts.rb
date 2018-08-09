@@ -18,7 +18,6 @@ def remove_strawberry(contacts)
   contacts.each["Freddy Mercury"] do |info_hash, value|
     if info_hash == :favorite_ice_cream_flavors
         info_hash.delete("strawberry")
-      end
     end
   end
 end
