@@ -15,7 +15,7 @@ require 'pry'
   # }
   
 def remove_strawberry(contacts)
-  contacts.each do |person, info|
-    if person == "Freddy Mercury"
+  contacts["Freddy Mercury"].each do |person, info|
+    if person == 
       
 end
