@@ -15,7 +15,7 @@ require 'pry'
   # }
   
 def remove_strawberry(contacts)
-  contacts.collect["Freddy Mercury"] do |info_hash, value|
+  contacts["Freddy Mercury"].collect do |info_hash, value|
     if info_hash == :favorite_ice_cream_flavors
         info_hash.delete("strawberry")
     end
