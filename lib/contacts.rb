@@ -17,7 +17,7 @@ require 'pry'
 def remove_strawberry(contacts)
   contacts.each do |person, details_hash|
     if details_hash == :favorite_ice_cream_flavors
-        details_hash.unshift("strawberry")
+        details_hash.delete("strawberry")
     end
   end
 end
