@@ -16,8 +16,7 @@ require 'pry'
   
 def remove_strawberry(contacts)
   contacts.each["Freddy Mercury"] do |info_hash, value|
-    if person == "Freddy Mercury"
-      if info_hash == :favorite_ice_cream_flavors
+    if info_hash == :favorite_ice_cream_flavors
         info_hash.delete("strawberry")
       end
     end
